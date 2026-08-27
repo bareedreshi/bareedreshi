@@ -1,16 +1,103 @@
-## Hi there 👋
+# Bareed Reshi
 
-<!--
-**bareedreshi/bareedreshi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Search, marketing technology, and performance marketing.** Phoenix, Arizona.
 
-Here are some ideas to get you started:
+I run search, martech, and performance marketing for an ownership group spanning three brands and 27 locations across Arizona and Texas — a furniture retailer, a family entertainment brand, and a nonprofit education organization — on a $150K per month marketing budget. Separately I take on local service businesses through my own consultancy.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Most of what I get pulled into is the same problem wearing different clothes: a marketing stack producing numbers nobody trusts. The fix is almost always upstream in the data rather than in the campaigns.
+
+I have a Computer Science degree, which in marketing mostly means I don't wait in a developer queue. I write the schema, configure the tags, build the automation, and ship the pages myself.
+
+---
+
+## What I run day to day
+
+**Three brands, 27 locations, two states.** Mega Furniture (20 retail locations, 10 Arizona and 10 Texas), Rush Fun Park (7 family entertainment locations across San Antonio, Universal City, Phoenix, Peoria and Chandler), and Good Tree Institute, the group's nonprofit. One marketing function covering all of it.
+
+**The budget.** Paid search, paid social, TikTok, YouTube, streaming, email, print, and out-of-home. Allocation between brands, pacing, forecasting, and marginal return by channel.
+
+**Agency governance.** I also sit on the client side of an agency relationship, auditing contracted deliverables against what actually shipped and holding outside vendors to measurable outcomes rather than activity reports. Useful vantage point — you learn quickly where agency search delivery breaks down.
+
+**The bench.** 10+ contract and agency specialists across content, copywriting, graphic design, video, and web development. Priorities, briefs, and quality review against brand standards that differ by brand.
+
+---
+
+## Things I've built
+
+### Multi-brand schema and entity program
+Organization, LocalBusiness, FAQ, and Course markup deployed across three genuinely different entity types — retail locations, entertainment venues, and an education nonprofit. Entity consistency held across Google Business Profile, on-site markup, and content, so each brand resolves as itself in local results and AI-generated answers rather than as a blur of the parent group.
+
+### Google Business Profile visibility recovery
+Maps visibility across the retail footprint collapsed year over year. The assumption in the room was content or links. It was neither — location profile completeness sitting well below threshold, compounded by local algorithm changes that had quietly raised the bar for what counts as complete. Led remediation across every Arizona location plus a structured review and reputation program to hold the gains.
+
+*In multi-location local search, the boring data-hygiene problem beats the interesting strategy problem most of the time.*
+
+### Conversion tracking rebuild
+Inherited a conversion foundation full of duplicate and junk actions that automated bidding was optimizing against. Audited and cleared it, then assigned defensible business values to offline outcomes — store visits, direction requests, phone calls — so Smart Bidding optimized toward real results instead of surface conversions. Also traced and blocked overseas click-farm traffic that was contaminating the bidding signal.
+
+Side effect worth naming: it made organic performance measurable in the same frame as paid, which is what finally let search work get argued for on equal footing at budget time.
+
+### AI-augmented marketing operations
+Roughly ten automated workflows on the Claude API and n8n covering recurring performance reporting, data aggregation, and campaign QA across the portfolio. Replaced a full day of manual weekly reporting and redirected that capacity into strategy and testing. Built without engineering support.
+
+### [24locksmithpro.com](https://www.24locksmithpro.com/) — consultancy client
+A mobile automotive locksmith with a strong Google Business Profile and no website at all. Built a mobile-first single page from scratch: full LocalBusiness schema, geo meta and coordinates, service-area coverage across the Phoenix metro, and copy written for emergency intent.
+
+Someone locked out of their car at 9pm doesn't read an About page. Single page, phone number fixed in view, services above the fold, no forms — every decision came from that one behavioural fact.
+
+### Technical SEO — Good Tree Institute
+Organization, FAQ, and Course JSON-LD deployed through Squarespace code injection, site-wide meta rewrites, and de-indexing of low-value pages with sitemap resubmission to consolidate crawl budget onto enrollment pages. Also diagnosed a broken jQuery mega-menu — a case-sensitivity mismatch — that was silently blocking navigation and internal link equity.
+
+Delivered alongside the board-level marketing briefing presented to organizational leadership, inside a formal brand approval workflow requiring executive sign-off on every published change.
+
+### Promotional landing pages and Shopify theme work
+Single-file HTML campaign pages with horizontal snap carousels, swipe support, live product data, and full markup — then deployed into a Shopify Online Store 2.0 theme. Which meant the real work: Custom Liquid hitting character limits and choking on CSS braces, a page template shadowed by an auto-generated JSON file, and the resolution being the two-file section-plus-JSON-template approach rather than a page builder.
+
+### Ecommerce platform migration
+End-to-end platform build with an external development partner: URL architecture, catalog and pricing data structure, tracking continuity, vendor access control, and domain and DNS cutover — organic equity protected through the migration rather than rebuilt after it.
+
+### Video commercial production
+Concept, script, and creative direction through campaign build, audience targeting, and optimization on YouTube. The creative and the media buying in the same pair of hands.
+
+### [triptology.in](https://triptology.in) — personal project
+A Kashmir travel content site I built and run end to end: site build, keyword targeting, on-page and entity structure, schema deployment, Search Console monitoring.
+
+It doubles as a sandbox. Technical and structured-data changes get tested here, on a site I own, before they go near anything at work.
+
+---
+
+## Things I've taken apart to learn from
+
+**Apple's homepage architecture.** Pulled the source and worked through it properly: inline SVG nav text rendering, the analytics instrumentation attribute pattern, scroll-driven video with keyframe syntax, responsive picture elements across four breakpoints with 2x retina variants, the JSON-driven client-side nav config, and their JSON-LD implementation. Then rebuilt the patterns from scratch to make sure I actually understood them.
+
+**Multi-agent marketing systems.** A staged agent workflow where Claude and Gemini review each other's output — adversarial quality control rather than a single model agreeing with itself. Covers strategy, creative production, and channel planning across different business models.
+
+---
+
+## Stack
+
+`GA4` `Google Tag Manager` `Looker Studio` `Search Console` `Google Business Profile` `Google Merchant Center` `SEMrush`
+
+`Google Ads` `Performance Max` `Meta Ads` `TikTok Ads` `YouTube`
+
+`JSON-LD` `Schema.org` `HTML` `CSS` `JavaScript` `Liquid`
+
+`n8n` `Zapier` `Claude API` `Google Ads API`
+
+`Shopify` `WordPress` `Squarespace`
+
+---
+
+## Background
+
+Nine years across the US, Qatar, and India.
+
+Before Phoenix I ran paid acquisition and live campaign operations for a delivery platform during the FIFA World Cup in Qatar — geo-fenced programs across eight stadium zones in eight languages, under conditions where a campaign decision had a window of minutes rather than days. Before that, built the analytics, tracking, and reporting foundation across a multi-brand portfolio in Doha, and ran B2B business development in India.
+
+B.S. Computer Science · Executive MBA in Information Technology (STEM-designated)
+
+English, Arabic, Urdu, Hindi, Kashmiri
+
+---
+
+Phoenix, AZ · [Portfolio](https://bareedreshi.github.io) · [LinkedIn](https://www.linkedin.com/in/bareedmushtaq) · reshi.bareed@gmail.com

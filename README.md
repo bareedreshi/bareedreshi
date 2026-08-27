@@ -45,6 +45,18 @@ A mobile automotive locksmith with a strong Google Business Profile and no websi
 
 Someone locked out of their car at 9pm doesn't read an About page. Single page, phone number fixed in view, services above the fold, no forms — every decision came from that one behavioural fact.
 
+### Agency contract review and renegotiation
+An SEO agency engagement arrived already in motion — a large one-time "local presence rollout" plus a monthly hours block, access granted, invoice issued. The rollout was a citation build priced several times above what the standard tooling costs for the same output. The monthly block was sold as capacity rather than deliverables, with contract language stating outright that no requested item was guaranteed. Scope overlapped the paid media accounts I had just rebuilt in house. Terms ran one direction: full payment upfront and non-refundable, low liability caps, out-of-state venue, unilateral rate increases.
+
+Recommended killing the rollout, carving paid media out of scope, restructuring the monthly block around defined deliverables, and fixing the legal terms before renewal. Framed upward as financial stewardship rather than territorial defence.
+
+The tell: their flagship deliverable targeted directory listings. Our actual problem was Google Business Profile completeness. Right invoice, wrong lever — which you only catch if you already know where the visibility is leaking.
+
+### Vendor access governance
+Two vendors on the same domain at once: an SEO agency running off-site local work, and a development partner mid-build on a platform migration. Least privilege by default — analytics, Search Console, Ads, Meta, TikTok and Shopify at editor rather than admin, admin downgraded after onboarding, developer seats held until scope settled. Registrar and DNS control never handed over; when bot mitigation was needed the answer was a scoped CDN member seat or an in-house implementation, not the keys to the domain.
+
+A vendor holding DNS during an active migration is a single point of failure for the whole business. Coordination costs a few emails. A rollback costs the quarter.
+
 ### Technical SEO — Good Tree Institute
 Organization, FAQ, and Course JSON-LD deployed through Squarespace code injection, site-wide meta rewrites, and de-indexing of low-value pages with sitemap resubmission to consolidate crawl budget onto enrollment pages. Also diagnosed a broken jQuery mega-menu — a case-sensitivity mismatch — that was silently blocking navigation and internal link equity.
 
@@ -71,6 +83,22 @@ It doubles as a sandbox. Technical and structured-data changes get tested here, 
 **Apple's homepage architecture.** Pulled the source and worked through it properly: inline SVG nav text rendering, the analytics instrumentation attribute pattern, scroll-driven video with keyframe syntax, responsive picture elements across four breakpoints with 2x retina variants, the JSON-driven client-side nav config, and their JSON-LD implementation. Then rebuilt the patterns from scratch to make sure I actually understood them.
 
 **Multi-agent marketing systems.** A staged agent workflow where Claude and Gemini review each other's output — adversarial quality control rather than a single model agreeing with itself. Covers strategy, creative production, and channel planning across different business models.
+
+---
+
+## Graduate research
+
+**REI — when membership growth stops paying for itself.** Built a three-dataset view of the co-op: four years of high-level financials, store-level inventory and sales, and a customer service and returns log. Membership grew from roughly 21 million to 25 million between 2021 and 2024, close to 20% growth. Over the same window the co-op went from a $97.7M profit to three consecutive loss years, with net sales falling from $3.85B to $3.53B. Correlation between member growth and net income came out around −0.59.
+
+Acquisition was working and unit economics were not. It is the counterweight to a career spent optimizing for more customers, and the reason I value conversions rather than counting them.
+
+**Client Campaign Analytics System — database design.** A full relational design for a marketing department running campaigns on behalf of clients: conceptual model, logical schema, physical design with SQL. Clients, campaigns, channels (Google Ads, Meta, LinkedIn, email), audience segments defined by demographic and behavioral criteria, performance records carrying impressions, clicks, conversions and spend by reporting period, and team members. Two many-to-many relationships resolved with junction tables so targeting definitions stay consistent instead of being duplicated per campaign.
+
+This is the data model underneath every reporting layer I have built since. Knowing why the schema looks the way it does is the difference between reading a dashboard and being able to fix one.
+
+**Balanced Scorecard for a retail operation.** Financial, customer, internal process and learning perspectives, each measure defined with its purpose and the direction it should trend. The vocabulary for arguing marketing in front of a finance audience.
+
+**Additional case analysis.** Comparative retail case work across large-format and specialty retail including Target and Walmart — positioning, omnichannel economics, operating model. Plus technology strategy and market-entry analysis, cost and operations cases, augmented reality in manufacturing, and business ethics.
 
 ---
 
